@@ -36,10 +36,8 @@ Z =  7440056.739046174
 - Cały kod znajduje się w jednym pliku: `GpsSatelitePosition.hs`.
 
 ---
-```
-
 ## Data flow / Przepływ danych
-
+```
 GPS Ephemeris + GPS Time  
             │
             ▼
