@@ -34,20 +34,14 @@ Z =    1345678.543210987
 ## Data flow / Przepływ danych
 
 GPS Ephemeris + GPS Time  
-Efemerydy GPS + Czas GPS  
             │
             ▼
-   Orbital computations  
-   Obliczenia orbitalne  
+   Orbital computations
  (Kepler, harmonic corrections,  
- inclination, ascending node)  
- (Kepler, poprawki harmoniczne,  
- inklinacja, węzeł wstępujący)  
+ inclination, ascending node)    
             │
             ▼
- Transformation to ECEF frame  
- Transformacja do układu ECEF  
+ Transformation to ECEF frame 
             │
             ▼
  Satellite position (X, Y, Z)  
- Pozycja satelity (X, Y, Z)  
