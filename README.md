@@ -19,7 +19,7 @@ Y = 13231276.153471118
 Z =  7440056.739046174
 
 
-Notes / Uwagi
+NOTES / UWAGI
 
 EN:
 - Input time must be given in GPS time (not UTC).
@@ -34,17 +34,14 @@ PL:
 - Cały kod znajduje się w jednym pliku: GpsSatellitePosition.hs.
 
 
-Data flow / Przepływ danych
+DATA FLOW / PRZEPŁYW DANYCH
 
 GPS Ephemeris + GPS Time  
             |
-            ▼
    Orbital computations  
  (Kepler, harmonic corrections,  
  inclination, ascending node)  
             |
-            ▼
  Transformation to ECEF frame  
             |
-            ▼
  Satellite position (X, Y, Z)  
