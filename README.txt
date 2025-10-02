@@ -1,4 +1,3 @@
-<pre>
 GPS SATELLITE POSITION
 
 EN:  
@@ -49,4 +48,3 @@ GPS Ephemeris + GPS Time
             |
             V
  Satellite position (X, Y, Z)  
-</pre>
