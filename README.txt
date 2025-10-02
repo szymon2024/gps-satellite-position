@@ -1,4 +1,6 @@
-GPS SATELLITE POSITION
+================================================================================
+                            GPS SATELLITE POSITION
+================================================================================
 
 EN:  
 A simple Haskell program that computes the position of a GPS satellite from broadcast ephemeris data and a given GPS time.  
@@ -11,8 +13,8 @@ Algorytm opracowano na podstawie specyfikacji IS-GPS-200H.
 Program wyznacza współrzędne satelity w układzie ECEF (Earth-Centered, Earth-Fixed).
 
 
-Example output / Przykładowy wynik
-
+EXAMPLE OUTPUT / PRZYKŁADOWY WYNIK
+----------------------------------
 ECEF satellite position [m]:
 X = 22121977.179040890
 Y = 13231276.153471118
@@ -20,7 +22,7 @@ Z =  7440056.739046174
 
 
 NOTES / UWAGI
-
+-------------
 EN:
 - Input time must be given in GPS time (not UTC).
 - The type UTCTime is used only as a container for date arithmetic.  
@@ -35,7 +37,7 @@ PL:
 
 
 DATA FLOW / PRZEPŁYW DANYCH
-
+---------------------------
 GPS Ephemeris + GPS Time  
             |
             V
