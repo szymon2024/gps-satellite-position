@@ -38,6 +38,7 @@ PL:
 
 DATA FLOW / PRZEPŁYW DANYCH
 ---------------------------
+
 GPS Ephemeris + GPS Time  
             |
             V
