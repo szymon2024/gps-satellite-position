@@ -218,10 +218,10 @@ expectedResult = ( 22121977.179040890
 -- | PL: Oblicza pozycję satelity GPS dla przykładu efemeryd GPS i czasu GPS
 main :: IO ()
 main = do
-  let Just gpsT  = mkGPSTime 2024 03 07 21 59 30.0
-      ephs       = ephsExample
+  let Just gpsT     = mkGPSTime 2024 03 07 21 59 30.0
+      ephs          = ephsExample
       (gpsWeek,sow) = gpsTimeToWeekSow gpsT
-      (xS,yS,zS) = gpsSatellitePosition (realToFrac sow) ephs
+      (xS,yS,zS)    = gpsSatellitePosition (realToFrac sow) ephs
   if abs (gpsWeek - (floor (week ephs))) <= 1 then do  -- EN: GPS week must be consistent or adjacent to the ephemeris week
           putStrLn $ "ECEF satellite position [m]:"    -- PL: GPS week musi być zgodny albo sąsiedni do tygodnia efemerydy
           putStrLn $ "X = " ++ printf "%18.9f" xS
