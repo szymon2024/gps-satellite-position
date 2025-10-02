@@ -47,5 +47,6 @@ GPS Ephemeris + GPS Time
             V
  Transformation to ECEF frame  
             |
+            V
  Satellite position (X, Y, Z)  
 </pre>
