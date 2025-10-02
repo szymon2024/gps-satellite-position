@@ -39,10 +39,12 @@ DATA FLOW / PRZEPŁYW DANYCH
 
 GPS Ephemeris + GPS Time  
             |
+            V
    Orbital computations  
  (Kepler, harmonic corrections,  
  inclination, ascending node)  
             |
+            V
  Transformation to ECEF frame  
             |
  Satellite position (X, Y, Z)  
