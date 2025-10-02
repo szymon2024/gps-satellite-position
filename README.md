@@ -29,7 +29,7 @@ EN:
 
 PL:
 - Czas wejściowy musi być podany w czasie GPS (nie UTC).
-- Typ `UTCTime` służy jedynie jako kontener dla arytmetyki daty.
+- Typ UTCTime służy jedynie jako kontener dla arytmetyki daty.
 - Sekundy przestępne NIE są tutaj obsługiwane – użytkownik musi podać czas GPS bezpośrednio.
 - Cały kod znajduje się w jednym pliku: GpsSatellitePosition.hs.
 
