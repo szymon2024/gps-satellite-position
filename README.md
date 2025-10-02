@@ -1,4 +1,4 @@
-GPS Satellite Position
+GPS SATELLITE POSITION
 
 EN:  
 A simple Haskell program that computes the position of a GPS satellite from broadcast ephemeris data and a given GPS time.  
@@ -37,14 +37,14 @@ PL:
 Data flow / Przepływ danych
 
 GPS Ephemeris + GPS Time  
-            │
+            |
             ▼
    Orbital computations  
  (Kepler, harmonic corrections,  
  inclination, ascending node)  
-            │
+            |
             ▼
  Transformation to ECEF frame  
-            │
+            |
             ▼
  Satellite position (X, Y, Z)  
