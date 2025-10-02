@@ -25,7 +25,7 @@ NOTES / UWAGI
 EN:
 - Input time must be given in GPS time (not UTC).
 - The type UTCTime is used only as a container for date arithmetic.  
-- Leap seconds are not handled here - the user must provide GPS time directly.  
+- Leap seconds are NOT handled here - the user must provide GPS time directly.  
 - All code is contained in a single file: GpsSatellitePosition.hs.
 
 PL:
