@@ -106,8 +106,8 @@ gpsSatellitePosition  t Ephemeris{..} =
                                                           -- PL: skorygowany promień
     ik     = i0 + dik + iDot*tk                           -- EN: corrected inclination
                                                           -- PL: skorygowana inklinacja
-    xk'  = rk * cos uk                                     -- EN: positions in the orbital plane
-    yk'  = rk * sin uk                                     -- PL: pozycje w płaszczyźnie orbitalnej
+    xk'  = rk * cos uk                                    -- EN: positions in the orbital plane
+    yk'  = rk * sin uk                                    -- PL: pozycje w płaszczyźnie orbitalnej
              
     omegak = omega0 + (omegaDot - omegaE)*tk - omegaE*toe -- EN: corrected longitude of ascending node
                                                           -- PL: skorygowana długość geograficzna węzła wstępującego
