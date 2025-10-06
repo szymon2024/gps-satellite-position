@@ -34,7 +34,7 @@ Data flow
              V
   Ephemeris validity check
              |
-	     V
+	         V
   Orbital computations  
   (Kepler, harmonic corrections,  
   inclination, ascending node)  
@@ -83,7 +83,7 @@ Przepływ danych
              V
   Sprawdzenie ważności efemerydy
              |
-	     V
+	         V
   Obliczenia orbitalne
   (Kepler, korekty harmoniczne,  
   inklinacja, węzeł wstępujący)  
