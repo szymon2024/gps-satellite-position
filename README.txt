@@ -14,7 +14,7 @@ Input data in the program code
 GPS Ephemeris, GPS Time
 
 
-Example output
+Output example
 --------------
 ECEF satellite position [m]:
 X = 22121977.179040890
